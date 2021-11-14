@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    font-family: 'Merriweather', serif;}
+.container-top{
+    padding-left: 50px;
+}
+.container-top h3{
+    font-style: italic;
+}
+.container-top h1{
+    padding-top: 3vw;
+    padding-left: 21vw;
+}
+
+.main-image{
+    width: 100%;
+}
+.container-top button{
+    background-color:white;
+}
+.container-top h3{
+    margin-top: 3vw;
+}
+.photo{
+    margin-top: 2vw;
+}
+
+.footer{
+    margin: 20px 0px;
+}

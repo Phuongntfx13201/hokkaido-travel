@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    font-family: 'Merriweather', serif;
+}
+.banner-text{
+    background-image: url("image/top-image.jpeg");
+    background-size: cover;
+    position: relative;
+    color: black;
+    height: 400px;
+    padding-left: 1vw;
+    padding-top: 6vh;
+}
+.main-content{
+    background-color: #e6e6e6;
+    padding: 2vh 4vw;
+    }
+.main-text h2{
+    font-weight: bold;
+    font-size: 2.3vw;
+}
+.img-css {
+    position: relative;
+    background-color: #e6e6e6;
+    padding: 0 1vw;
+}
+.photo img {
+    width: 100%;
+    padding: 1vw 0;
+}
+.photo::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer{
+    background-color: #f7f7f7; 
+    padding:4vh 3vw;
+    text-align: justify;
+}
+.footer h3{
+    font-weight: bold;
+    font-size: 2vw;
+}
+.footer a{
+    text-decoration: none;
+    color:deepskyblue;
+    font-size: 1vw;
+}
+@media only screen and (max-width: 991px) {
+    .banner-text{
+        background-image: none;
+        position: relative;
+        color: black;
+        height: 200px;
+        padding-left: 4vw;
+        padding-top: 6vh;
+    }
+    .banner-text h1 {
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        font-size: 3vh;
+        padding-top: 1%;
+    }
+    .banner-text p {
+        font-family: 'Merriweather', serif;
+        font-size: 2vh;
+    }
+    .banner-text p{
+        border-bottom: 1px solid grey;
+        padding-bottom: 13%;
+    }
+    .main-text h2{
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        font-size: 3vh;
+    }
+    .main-text p {
+        font-family: 'Merriweather', serif;
+        font-size: 2vh;
+    }
+    .main-content{
+        background-color:white;
+        padding-left: 4vw;
+        padding-top: 5vh;
+    }
+   
+    .img-css {
+        background-color:white;
+        padding-left: 4vw;
+    }
+    .footer{
+        background-color: white; 
+        padding-left: 4vw;
+    }
+}
+@media only screen and (min-width: 768px) and  (max-width: 991px){  
+        .footer h3{
+            font-size: 3vw;
+            font-weight: bold;
+        }
+}
+@media only screen and (max-width: 768px) {  
+.footer h3{
+    font-size: 4vw;
+    font-weight: bold;
+}
+}

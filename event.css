@@ -1,0 +1,17 @@
+.top-tittle h2{
+    text-align: center;
+    padding-top: 20px;
+}
+.top-tittle p{
+    font-size: 2vw;
+    font-style: italic;
+    padding: 10px;
+}
+.image{
+    width:100%;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+.pagination{
+    padding: 20px 40px 20px 40px;
+}

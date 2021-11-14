@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    font-family: 'Merriweather', serif;;
+}
+.banner{
+background: url("/Users/apple/Desktop/Project4/image/top-image.jpeg");
+background-size:cover;
+height: 550px;
+padding: 5px;
+}
+.banner h1{ 
+text-align: center;
+padding: 20px;
+font-size: 6vw;
+font-weight: 700;
+
+}
+.banner p{ 
+    text-align: center;
+    padding: 0 20px 0 20px;
+    font-size: 3vw;
+    }
+.main-text{
+    text-align: center;
+    font-weight: 500;
+    font-size: 4vw;
+    padding-top: 10px;
+}
+.row h3{
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: 350;
+}
+.main-image{
+    width: 100%;
+    padding: 2px;
+}
+.footer p{
+    font-size: 1.5vw;
+    background-color: lightgrey;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+.carousel-inner{
+    width: 100%;
+}
+    /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.3;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    float:right;
+    margin: 2px;
+    padding-bottom: 20px;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    float:right;
+    margin: 2px;
+    padding-bottom: 20px;
+  }
