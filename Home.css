@@ -10,7 +10,7 @@ body {
     font-family: 'Merriweather', serif;;
 }
 .banner{
-background: url("/Users/apple/Desktop/Project4/image/top-image.jpeg");
+background: url("/image/top-image.jpeg");
 background-size:cover;
 height: 550px;
 padding: 5px;
